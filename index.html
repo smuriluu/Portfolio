@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <title>Sérgio Murilo dos Santos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="particles-js"></div>
+    <!-- Navegação lateral -->
+    <nav class="table-of-contents">
+        <ul class="toc-list">
+            <li class="toc-item">
+                <a href="#top" class="toc-link">
+                    <span class="toc-bullet"></span>
+                    Início
+                </a>
+            </li>
+            <li class="toc-item">
+                <a href="#about-me" class="toc-link">
+                    <span class="toc-bullet"></span>
+                    Sobre Mim
+                </a>
+            </li>
+            <li class="toc-item">
+                <a href="#home-server" class="toc-link">
+                    <span class="toc-bullet"></span>
+                    Home Server
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <main class="container" id="top">
+        <div class="profile">
+            <img src="imagens/index/profile.jpg" alt="Profile" class="profile-img">
+        </div>
+
+        <h1 class="title">Olá, meu nome é Sérgio 👋</h1>
+        
+        <p class="description">
+            Em desenvolvimento!
+        </p>
+
+        <div class="links">
+            <a href="https://github.com/smuriluu" class="link-card" target="_blank">
+                <img src="imagens/index/github.png" alt="Discord Icon" class="link-icon">
+                <span class="link-text">GitHub</span>
+            </a>
+            <a href="https://www.linkedin.com/in/sergio-murilo-dos-santos/" class="link-card" target="_blank">
+                <img src="imagens/index/linkedin.png" alt="Linkedin Icon" class="link-icon">
+                <span class="link-text">linkedin</span>
+            </a>
+        </div>
+        <div id="about-me">
+            <div class="card">
+                <h1>Sobre Mim</h1>
+                <p>
+                    Sou um profissional de Tecnologia da Informação com experiência em desenvolvimento, infraestrutura e suporte técnico. Minha atuação abrange desde a criação de sistemas eficientes até a otimização de processos, garantindo estabilidade e inovação em diferentes áreas da TI.
+                </p>
+                <p>
+                    Tenho conhecimentos em backend Python, banco de dados Oracle e MySQL, manutenção de máquinas, redes e automação. Estou sempre explorando novas tecnologias para aprimorar minhas habilidades e desenvolver soluções que tornem os processos mais eficientes e ágeis.
+                </p>
+                <p>
+                    Além do desenvolvimento tradicional, sou entusiasta da criação de jogos, estudando Python com a biblioteca Pygame para construir experiências interativas do zero.
+                </p>
+                <p>
+                    Minha atuação é guiada por aprendizado contínuo, prover soluções e inovação. Seja desenvolvendo sistemas, otimizando infraestrutura ou criando jogos, estou sempre pronto para enfrentar novos desafios e expandir meus conhecimentos.
+                </p>
+                <div class="links">
+                    <a href="files/host1-img1.png" class="link-card" download="Sérgio Murilo dos Santos">
+                        <span class="link-text">Currículo</span>
+                    </a>
+                    <a href="mailto:smuriluu@outlook.com" class="link-card">
+                        <span class="link-text">E-mail</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" id="home-server">
+            <h1>Home Server</h1>
+            
+            <!-- Visão Geral -->
+            <section>
+                <h2>Visão Geral da Infraestrutura</h2>
+                <p>Servidor doméstico configurado com as seguintes tecnologias:</p>
+                <ul>
+                    <li>Nginx como servidor web</li>
+                    <li>Cloudflare para proxy reverso e segurança</li>
+                    <li>CasaOs para containerização, servidor SMB e Cloud</li>
+                    <li>MySQL para banco de dados</li>
+                </ul>
+            </section>
+
+            <!-- Aplicações -->
+            <section>
+                <h2>Aplicações Hospedadas</h2>
+                <div class="app-grid">
+                    <div class="app-card">
+                        <h3>Portfólio</h3>
+                        <p>Site pessoal desenvolvido com HTML, CSS e JavaScript</p>
+                    </div>
+                    <div class="app-card">
+                        <h3>API</h3>
+                        <p>Backend em Python com autenticação e gerenciamento de usuários e Webhook do discord para monitoramento do host</p>
+                    </div>
+                    <div class="app-card">
+                        <h3>WiFi Manager</h3>
+                        <p>Sistema de gerenciamento de rede local</p>
+                    </div>
+                    <div class="app-card">
+                        <h3>Monitoramento</h3>
+                        <p>Monitoramento utilizando Uptime Kuma utilizando alerta com um endpoint da API</p>
+                    </div>
+                    <div class="app-card">
+                        <h3>Cloud</h3>
+                        <p>Cloud implementado com container NextCloud</p>
+                    </div>
+                    <div class="app-card">
+                        <h3>Servidor SMB</h3>
+                        <p>Cloud implementado com container NextCloud</p>
+                    </div>
+                    <div class="app-card">
+                        <h3>Banco de dados</h3>
+                        <p>Banco de dados MySQL</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Arquitetura -->
+            <section>
+                <h2>Arquitetura</h2>
+                <pre><p>Diagrama da infraestrutura:</p></pre>
+                <img src="imagens/infraestrutura/host1-mindmap.png" alt="Diagrama da infraestrutura">
+            </section>
+
+            <!-- Tecnologias -->
+            <section>
+                <h2>Stack Tecnológica</h2>
+                <div class="tech-stack">
+                    <div class="tech-item">
+                        <h3>Frontend</h3>
+                        <ul>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>JavaScript</li>
+                        </ul>
+                    </div>
+                    <div class="tech-item">
+                        <h3>Backend</h3>
+                        <ul>
+                            <li>Python</li>
+                            <li>MySQL</li>
+                            <li>Nginx</li>
+                        </ul>
+                    </div>
+                    <div class="tech-item">
+                        <h3>DevOps</h3>
+                        <ul>
+                            <li>Docker</li>
+                            <li>Cloudflare</li>
+                            <li>Git</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Exemplos de Código -->
+            <section>
+                <h2>Exemplos de Implementação</h2>
+                
+                <!-- Exemplo de Configuração Nginx -->
+                <pre><p>Exemplo de configuração de proxy reverso:</p></pre>
+                <code class="config">
+<span class="section">server</span> {
+    <span class="key">listen</span> 80;
+    <span class="key">server_name</span> example.com;
+    
+    <span class="section">location</span> / {
+        <span class="key">proxy_pass</span> http://localhost:3000;
+        <span class="key">proxy_set_header</span> Host $host;
+        <span class="key">proxy_set_header</span> X-Real-IP $remote_addr;
+    }
+}
+                </code>
+
+                <!-- Exemplo de Estrutura de Banco -->
+                <pre><p>Exemplo de estrutura de banco de dados:</p></pre>
+                <code class="sql">
+<span class="keyword">CREATE TABLE</span> users (
+    id <span class="keyword">INT NOT NULL AUTO_INCREMENT</span>,
+    username <span class="keyword">VARCHAR</span>(255) <span class="keyword">NOT NULL</span>,
+    email <span class="keyword">VARCHAR</span>(255) <span class="keyword">NOT NULL</span>,
+    created_at <span class="keyword">TIMESTAMP DEFAULT CURRENT_TIMESTAMP</span>,
+    <span class="keyword">PRIMARY KEY</span> (id)
+);
+                </code>
+            </section>
+        </div>
+        
+        <footer>
+            <p>Desenvolvido por Sérgio Murilo dos Santos <span class="copyright">©</span> <span class="year"></span></p>
+        </footer>
+    </main>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+        // Atualiza o ano no footer
+        document.querySelector('.year').textContent = new Date().getFullYear();
+
+        // Controle da navegação lateral
+        document.addEventListener('DOMContentLoaded', () => {
+            const sections = document.querySelectorAll('.card, #top');
+            const tocLinks = document.querySelectorAll('.toc-link');
+            let currentSection = null;
+
+            const observerOptions = {
+                threshold: 0.5,
+                rootMargin: '-50px 0px -50px 0px'
+            };
+
+            function updateActiveLink(sectionId) {
+                tocLinks.forEach(link => {
+                    const href = link.getAttribute('href').substring(1);
+                    if (href === sectionId) {
+                        link.classList.add('active');
+                    } else {
+                        link.classList.remove('active');
+                    }
+                });
+            }
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        currentSection = entry.target;
+                        updateActiveLink(currentSection.id);
+                    }
+                });
+            }, observerOptions);
+
+            sections.forEach(section => observer.observe(section));
+
+            // Smooth scroll com atualização imediata do link ativo
+            tocLinks.forEach(link => {
+                link.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    const targetId = link.getAttribute('href');
+                    const targetElement = document.querySelector(targetId);
+                    
+                    // Atualiza o link ativo imediatamente ao clicar
+                    updateActiveLink(targetId.substring(1));
+                    
+                    if (targetId === '#top') {
+                        window.scrollTo({
+                            top: 0,
+                            behavior: 'smooth'
+                        });
+                    } else {
+                        targetElement.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+
+            // Backup: atualiza o link ativo baseado na posição do scroll
+            window.addEventListener('scroll', () => {
+                const scrollPosition = window.scrollY;
+
+                // Verifica se está no topo da página
+                if (scrollPosition < 100) {
+                    updateActiveLink('top');
+                    return;
+                }
+
+                sections.forEach(section => {
+                    if (section.id === 'top') return; // Pula a verificação para a seção top
+                    const sectionTop = section.offsetTop - 100;
+                    const sectionBottom = sectionTop + section.offsetHeight;
+
+                    if (scrollPosition >= sectionTop && scrollPosition < sectionBottom) {
+                        updateActiveLink(section.id);
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html> 
