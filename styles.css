@@ -19,6 +19,10 @@ body {
     position: relative;
 }
 
+img {
+    max-width: 100%;
+}
+
 #particles-js {
     position: fixed;
     top: 0;
@@ -28,9 +32,8 @@ body {
     z-index: 1;
 }
 
-#about-me {
+#about-me, #home-server {
     padding-top: 15rem;
-    padding-bottom: 15rem;
 }
 
 .container {
@@ -479,4 +482,39 @@ footer .year {
     .table-of-contents {
         display: none;
     }
-} 
+}
+
+/* Estilos para a seção de visão geral */
+.infra-grid {
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.infra-card {
+    background: var(--card-background);
+    padding: 1.5rem;
+    border-radius: 8px;
+    border-left: 3px solid var(--accent-color);
+    transition: all 0.3s ease;
+}
+
+.infra-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    background: var(--card-hover-background);
+}
+
+.infra-card h3 {
+    color: var(--accent-color);
+    margin: 0 0 0.5rem 0;
+    font-size: 1.1rem;
+}
+
+.infra-card p {
+    margin: 0;
+    opacity: 0.8;
+    font-size: 0.9rem;
+}

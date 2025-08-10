@@ -59,7 +59,7 @@
             <div class="card">
                 <h1>Sobre Mim</h1>
                 <p>
-                    Sou um profissional de Tecnologia da Informação com experiência em desenvolvimento, infraestrutura e suporte técnico. Minha atuação abrange desde a criação de sistemas eficientes até a otimização de processos, garantindo estabilidade e inovação em diferentes áreas da TI.
+                    Meu nome é Sérgio Murilo dos Santos, sou um profissional de Tecnologia da Informação com experiência em desenvolvimento, infraestrutura e suporte técnico. Minha atuação abrange desde a criação de sistemas eficientes até a otimização de processos, garantindo estabilidade e inovação em diferentes áreas da TI.
                 </p>
                 <p>
                     Tenho conhecimentos em backend Python, banco de dados Oracle e MySQL, manutenção de máquinas, redes e automação. Estou sempre explorando novas tecnologias para aprimorar minhas habilidades e desenvolver soluções que tornem os processos mais eficientes e ágeis.
@@ -71,7 +71,7 @@
                     Minha atuação é guiada por aprendizado contínuo, prover soluções e inovação. Seja desenvolvendo sistemas, otimizando infraestrutura ou criando jogos, estou sempre pronto para enfrentar novos desafios e expandir meus conhecimentos.
                 </p>
                 <div class="links">
-                    <a href="files/host1-img1.png" class="link-card" download="Sérgio Murilo dos Santos">
+                    <a href="files/CV Sérgio Murilo dos Santos.pdf" class="link-card" download="CV Sérgio Murilo dos Santos">
                         <span class="link-text">Currículo</span>
                     </a>
                     <a href="mailto:smuriluu@outlook.com" class="link-card">
@@ -81,126 +81,141 @@
             </div>
         </div>
 
-        <div class="card" id="home-server">
-            <h1>Home Server</h1>
-            
-            <!-- Visão Geral -->
-            <section>
-                <h2>Visão Geral da Infraestrutura</h2>
-                <p>Servidor doméstico configurado com as seguintes tecnologias:</p>
-                <ul>
-                    <li>Nginx como servidor web</li>
-                    <li>Cloudflare para proxy reverso e segurança</li>
-                    <li>CasaOs para containerização, servidor SMB e Cloud</li>
-                    <li>MySQL para banco de dados</li>
-                </ul>
-            </section>
-
-            <!-- Aplicações -->
-            <section>
-                <h2>Aplicações Hospedadas</h2>
-                <div class="app-grid">
-                    <div class="app-card">
-                        <h3>Portfólio</h3>
-                        <p>Site pessoal desenvolvido com HTML, CSS e JavaScript</p>
-                    </div>
-                    <div class="app-card">
-                        <h3>API</h3>
-                        <p>Backend em Python com autenticação e gerenciamento de usuários e Webhook do discord para monitoramento do host</p>
-                    </div>
-                    <div class="app-card">
-                        <h3>WiFi Manager</h3>
-                        <p>Sistema de gerenciamento de rede local</p>
-                    </div>
-                    <div class="app-card">
-                        <h3>Monitoramento</h3>
-                        <p>Monitoramento utilizando Uptime Kuma utilizando alerta com um endpoint da API</p>
-                    </div>
-                    <div class="app-card">
-                        <h3>Cloud</h3>
-                        <p>Cloud implementado com container NextCloud</p>
-                    </div>
-                    <div class="app-card">
-                        <h3>Servidor SMB</h3>
-                        <p>Cloud implementado com container NextCloud</p>
-                    </div>
-                    <div class="app-card">
-                        <h3>Banco de dados</h3>
-                        <p>Banco de dados MySQL</p>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Arquitetura -->
-            <section>
-                <h2>Arquitetura</h2>
-                <pre><p>Diagrama da infraestrutura:</p></pre>
-                <img src="imagens/infraestrutura/host1-mindmap.png" alt="Diagrama da infraestrutura">
-            </section>
-
-            <!-- Tecnologias -->
-            <section>
-                <h2>Stack Tecnológica</h2>
-                <div class="tech-stack">
-                    <div class="tech-item">
-                        <h3>Frontend</h3>
-                        <ul>
-                            <li>HTML5</li>
-                            <li>CSS3</li>
-                            <li>JavaScript</li>
-                        </ul>
-                    </div>
-                    <div class="tech-item">
-                        <h3>Backend</h3>
-                        <ul>
-                            <li>Python</li>
-                            <li>MySQL</li>
-                            <li>Nginx</li>
-                        </ul>
-                    </div>
-                    <div class="tech-item">
-                        <h3>DevOps</h3>
-                        <ul>
-                            <li>Docker</li>
-                            <li>Cloudflare</li>
-                            <li>Git</li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Exemplos de Código -->
-            <section>
-                <h2>Exemplos de Implementação</h2>
+        <div id="home-server">
+            <div class="card">
+                <h1>Home Server</h1>
                 
-                <!-- Exemplo de Configuração Nginx -->
-                <pre><p>Exemplo de configuração de proxy reverso:</p></pre>
-                <code class="config">
-<span class="section">server</span> {
-    <span class="key">listen</span> 80;
-    <span class="key">server_name</span> example.com;
+                <!-- Visão Geral -->
+                <section>
+                    <h2>Visão Geral da Infraestrutura</h2>
+                    <p>Servidor doméstico configurado com as seguintes tecnologias:</p>
+                    <div class="infra-grid">
+                        <div class="infra-card">
+                            <h3>Servidor Web</h3>
+                            <p>Nginx configurado como servidor web principal, gerenciando requisições e proxy reverso</p>
+                        </div>
+                        <div class="infra-card">
+                            <h3>Segurança</h3>
+                            <p>Cloudflare implementado para proxy reverso e proteção contra ataques DDoS</p>
+                        </div>
+                        <div class="infra-card">
+                            <h3>Conteinerização</h3>
+                            <p>CasaOs para gerenciamento de containers, servidor SMB e armazenamento em nuvem</p>
+                        </div>
+                        <div class="infra-card">
+                            <h3>Banco de Dados</h3>
+                            <p>MySQL configurado para armazenamento e gerenciamento de dados das aplicações</p>
+                        </div>
+                    </div>
+                </section>
     
-    <span class="section">location</span> / {
-        <span class="key">proxy_pass</span> http://localhost:3000;
-        <span class="key">proxy_set_header</span> Host $host;
-        <span class="key">proxy_set_header</span> X-Real-IP $remote_addr;
+                <!-- Aplicações -->
+                <section>
+                    <h2>Aplicações Hospedadas</h2>
+                    <div class="app-grid">
+                        <div class="app-card">
+                            <h3>Portfólio</h3>
+                            <p>Site pessoal desenvolvido com HTML, CSS e JavaScript</p>
+                        </div>
+                        <div class="app-card">
+                            <h3>API</h3>
+                            <p>Backend em Python com autenticação e gerenciamento de usuários e Webhook do discord para monitoramento do host</p>
+                        </div>
+                        <div class="app-card">
+                            <h3>WiFi Manager</h3>
+                            <p>Sistema de gerenciamento de rede local</p>
+                        </div>
+                        <div class="app-card">
+                            <h3>Monitoramento</h3>
+                            <p>Monitoramento utilizando Uptime Kuma utilizando alerta com um endpoint da API</p>
+                        </div>
+                        <div class="app-card">
+                            <h3>Cloud</h3>
+                            <p>Cloud implementado com container NextCloud</p>
+                        </div>
+                        <div class="app-card">
+                            <h3>Servidor SMB</h3>
+                            <p>Cloud implementado com container NextCloud</p>
+                        </div>
+                        <div class="app-card">
+                            <h3>Banco de dados</h3>
+                            <p>Banco de dados MySQL</p>
+                        </div>
+                    </div>
+                </section>
+    
+                <!-- Arquitetura -->
+                <section>
+                    <h2>Arquitetura</h2>
+                    <pre><p>Diagrama da infraestrutura:</p></pre>
+                    <img src="imagens/infraestrutura/host1-mindmap.png" alt="Diagrama da infraestrutura">
+                </section>
+    
+                <!-- Tecnologias -->
+                <section>
+                    <h2>Stack Tecnológica</h2>
+                    <div class="tech-stack">
+                        <div class="tech-item">
+                            <h3>Frontend</h3>
+                            <ul>
+                                <li>HTML5</li>
+                                <li>CSS3</li>
+                                <li>JavaScript</li>
+                            </ul>
+                        </div>
+                        <div class="tech-item">
+                            <h3>Backend</h3>
+                            <ul>
+                                <li>Python</li>
+                                <li>MySQL</li>
+                                <li>Nginx</li>
+                            </ul>
+                        </div>
+                        <div class="tech-item">
+                            <h3>DevOps</h3>
+                            <ul>
+                                <li>Docker</li>
+                                <li>Cloudflare</li>
+                                <li>Git</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+    
+                <!-- Exemplos de Código -->
+                <section>
+                    <h2>Exemplos de Implementação</h2>
+                    
+                    <!-- Exemplo de Configuração Nginx -->
+                    <pre><p>Exemplo de configuração de proxy reverso:</p></pre>
+                    <code class="config">
+    <span class="section">server</span> {
+        <span class="key">listen</span> 80;
+        <span class="key">server_name</span> example.com;
+        
+        <span class="section">location</span> / {
+            <span class="key">proxy_pass</span> http://localhost:3000;
+            <span class="key">proxy_set_header</span> Host $host;
+            <span class="key">proxy_set_header</span> X-Real-IP $remote_addr;
+        }
     }
-}
-                </code>
-
-                <!-- Exemplo de Estrutura de Banco -->
-                <pre><p>Exemplo de estrutura de banco de dados:</p></pre>
-                <code class="sql">
-<span class="keyword">CREATE TABLE</span> users (
-    id <span class="keyword">INT NOT NULL AUTO_INCREMENT</span>,
-    username <span class="keyword">VARCHAR</span>(255) <span class="keyword">NOT NULL</span>,
-    email <span class="keyword">VARCHAR</span>(255) <span class="keyword">NOT NULL</span>,
-    created_at <span class="keyword">TIMESTAMP DEFAULT CURRENT_TIMESTAMP</span>,
-    <span class="keyword">PRIMARY KEY</span> (id)
-);
-                </code>
-            </section>
+                    </code>
+    
+                    <!-- Exemplo de Estrutura de Banco -->
+                    <pre><p>Exemplo de estrutura de banco de dados:</p></pre>
+                    <code class="sql">
+    <span class="keyword">CREATE TABLE</span> users (
+        id <span class="keyword">INT NOT NULL AUTO_INCREMENT</span>,
+        username <span class="keyword">VARCHAR</span>(255) <span class="keyword">NOT NULL</span>,
+        email <span class="keyword">VARCHAR</span>(255) <span class="keyword">NOT NULL</span>,
+        created_at <span class="keyword">TIMESTAMP DEFAULT CURRENT_TIMESTAMP</span>,
+        <span class="keyword">PRIMARY KEY</span> (id)
+    );
+                    </code>
+                </section>
+            </div>
         </div>
+        
         
         <footer>
             <p>Desenvolvido por Sérgio Murilo dos Santos <span class="copyright">©</span> <span class="year"></span></p>
@@ -214,12 +229,12 @@
 
         // Controle da navegação lateral
         document.addEventListener('DOMContentLoaded', () => {
-            const sections = document.querySelectorAll('.card, #top');
+            const sections = document.querySelectorAll('#top, #about-me, #home-server');
             const tocLinks = document.querySelectorAll('.toc-link');
             let currentSection = null;
 
             const observerOptions = {
-                threshold: 0.5,
+                threshold: 0.2,
                 rootMargin: '-50px 0px -50px 0px'
             };
 
