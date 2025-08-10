@@ -1,0 +1,7 @@
+services:
+  site:
+    build: .
+    container_name: portifolio
+    restart: always
+    ports:
+        - "8080:80"
